@@ -41,10 +41,10 @@ public class Main {
         for (int i = 0; i < 20; i++) {
             array.add(rand.nextInt((max - min) + 1) + min);
         }
-        System.out.println("Unsorted array: ");
+        System.out.println("Unsorted array:");
         printArray(array);
         SelectionSort(array);
-        System.out.println("Sorted array");
+        System.out.println("Sorted array:");
         printArray(array);
         System.out.println("Number of iterations: " + (O) + ", which comes out as O(n^2)");
     }

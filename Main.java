@@ -35,7 +35,7 @@ public class Main {
         System.out.println();
     }
     public static void main(String[] args) {
-        Random rand = new Random();
+        Random rand = new Random(506070);
         int max = 70;
         int min = 50;
         for (int i = 0; i < 20; i++) {
